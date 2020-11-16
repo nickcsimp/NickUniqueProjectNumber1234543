@@ -16,6 +16,6 @@ cache:
 deploy:
   provider: heroku
   api_key: 6ec06e46-e6e6-4a4b-8d9e-3469a0a329c8
-  app: NickUniqueProjectNumber12345432343
+  app: nickuniqueprojectnumber12345432343
   skip_cleanup: true
 
