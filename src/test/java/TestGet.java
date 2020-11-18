@@ -36,7 +36,7 @@ public class TestGet {
         myServlet.doGet(request,response);
 
         String output = stringWriter.getBuffer().toString();
-        Assert.assertThat(output,is(equalTo("<b>Hello, world</b>")));
+        Assert.assertThat(output,is(equalTo("<b>Hello, world!</b>")));
 
     }
 }
